@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
         ${clientBundleStyle}
       </head>
       <body>
-        <div id='ssr-app'>${jsx}</div>
+        <div id="SSR-App">${jsx}</div>
         ${clientBundleScript}
       </body>
     </html>
