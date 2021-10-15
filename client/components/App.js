@@ -1,11 +1,14 @@
 import React from 'react';
 import axios from 'axios';
-import style from './app.css';
+import Timer from './Timer';
+import '../style.css';
 
 const App = () => (
   <>
-    <div className='app'>Hello World</div>
-    <button onClick={e => console.log('Button clicked')}>Hello</button>
+    <h2>2-Way Timer</h2>
+    <Timer />
+    {/* <AddTimer /> */}
+    {/* <HUD /> */}
   </>
 );
 
