@@ -25,11 +25,11 @@ app.get('/', (req, res) => {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Task/Reward Timer</title>
+        <title>2-Way Timer</title>
         ${clientBundleStyle}
       </head>
       <body>
-        <div id="SSR-App">${jsx}</div>
+        <div id="ssr-app">${jsx}</div>
         ${clientBundleScript}
       </body>
     </html>

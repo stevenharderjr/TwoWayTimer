@@ -29,12 +29,6 @@ const config = {
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
-            options: {
-              modules: {
-                exportLocalsConvention: 'camelCase',
-                localIdentName: '[local]_[hash:base64:5]',
-              },
-            },
           }
         ],
       },

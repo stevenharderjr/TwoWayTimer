@@ -22,13 +22,6 @@ let config = {
         use: [
           {
             loader: 'css-loader',
-            options: {
-              modules: {
-                exportOnlyLocals: true,
-                exportLocalsConvention: 'camelCase',
-                localIdentName: '[local]_[hash:base64:5]'
-              },
-            },
           },
         ],
       },

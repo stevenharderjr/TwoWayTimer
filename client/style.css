@@ -1,3 +1,62 @@
-.app {
+
+html {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* height: 100vh;
+  width: 100vw; */
+  background-color: #111;
+  background-image: linear-gradient(to bottom, #aaa, #777);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: system-ui;
+  cursor: default;
+  user-select: none;
+  /* display: flex; */
+}
+
+div {
   color: cadetblue;
+}
+
+/* .timer {
+  user-select: none;
+  cursor: default;
+} */
+
+#ssr-app {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+#timers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+select {
+  color: #bbb;
+  background-color: #0003;
+  font-size: 1em;
+  padding: .2em;
+  margin-bottom: .5em;
+  border: none;
+  outline: none;
+}
+
+select:focus {
+  border: none;
+  outline: none;
+  margin-bottom: .5em;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #333;
+    background-image: linear-gradient(to bottom, #333, #000);
+  }
+
 }
